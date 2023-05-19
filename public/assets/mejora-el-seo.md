@@ -44,6 +44,8 @@ Así, mediante la mejora del SEO de tu portafolio, has logrado destacarte en un 
 
 Estas son solo algunas de las formas en que puedes usar el SEO para destacar como desarrollador de software. Sin embargo, recuerda que el SEO es solo una parte de la ecuación. Un buen contenido, una narrativa clara y una personalidad auténtica seguirán siendo fundamentales para captar la atención de los posibles empleadores.
 
+Aún hay mucho más para explorar en este universo del SEO. Por ejemplo, ¿sabías que puedes optimizar aún más tu portafolio mediante el uso de metadatos dinámicos desde el lado del servidor? ¿Interesante, verdad? En una próxima publicación, profundizaremos en este fascinante tema y te brindaré las mejores prácticas para implementarlo de forma efectiva en tu portafolio.
+
 El SEO puede parecer intimidante al principio, pero recuerda: eres un desarrollador de software. Ya dominas el arte de resolver problemas y crear universos digitales. Aplicar estas habilidades al SEO solo ampliará tus horizontes y abrirá nuevas puertas en tu carrera.
 
 ¿Estás listo para aventurarte en el universo del SEO y ver cómo se disparan tus oportunidades como desarrollador de software? Comienza hoy y ve cómo tu portafolio de software se eleva a la cima de los motores de búsqueda. Porque al final del día, lo que construiste no debería quedarse escondido. Muestra tu trabajo al mundo y deja que el mundo vea lo increíble que eres.
