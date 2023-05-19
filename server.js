@@ -55,7 +55,10 @@ app.get("/:slug", async function (req, res) {
       return console.log(err);
     }
     data = data.replace(/\$OG_TITLE/g, nombre + " 🐼 Jose Gaspar");
-    data = data.replace(/\$OG_IMAGE/g, __dirname + "/public" + image);
+    data = data.replace(
+      /\$OG_IMAGE/g,
+      "https://dev-gaspar.herokuapp.com" + image
+    );
     result = data.replace(
       /\$OG_DESCRIPTION/g,
       "En este post comparto mis apuntes sobre: " + descripcion
