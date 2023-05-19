@@ -37,10 +37,12 @@ app.get("/:slug", async function (req, res) {
 
   let nombre;
   let descripcion;
+  let image;
 
   if (meta) {
     nombre = meta.name;
     descripcion = meta.title;
+    image = meta.image;
   } else {
     nombre = "Post no encontrado";
     descripcion = "Post no encontrado";
@@ -52,6 +54,7 @@ app.get("/:slug", async function (req, res) {
     }
 
     data = data.replace(/\$OG_TITLE/g, nombre + " 🐼 Jose Gaspar");
+    data = data.replace(/\$$OG_IMAGE/g, image);
     result = data.replace(
       /\$OG_DESCRIPTION/g,
       "En este post comparto mis apuntes sobre: " + descripcion
