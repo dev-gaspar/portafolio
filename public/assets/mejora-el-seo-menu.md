@@ -1,4 +1,4 @@
-- [Introduccion](#introduccion)
+- [Introducción](#introduccin)
 - [¿Por qué el SEO es crucial?](#porqueelseoescrucial)
 - [Cómo brillar en el vasto universo digital](#cmobrillarenelvastouniversodigital)
 - [Ejemplo](#ejemplo)
