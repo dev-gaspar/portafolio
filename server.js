@@ -48,13 +48,14 @@ app.get("/:slug", async function (req, res) {
     descripcion = "Post no encontrado";
   }
 
+  console.log(__dirname);
+
   fs.readFile(filePath, "utf8", function (err, data) {
     if (err) {
       return console.log(err);
     }
-
     data = data.replace(/\$OG_TITLE/g, nombre + " 🐼 Jose Gaspar");
-    data = data.replace(/\$$OG_IMAGE/g, image);
+    data = data.replace(/\$OG_IMAGE/g, __dirname + "/public" + image);
     result = data.replace(
       /\$OG_DESCRIPTION/g,
       "En este post comparto mis apuntes sobre: " + descripcion
