@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Global Metadata -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <meta name="theme-color" content="#222831" />
+
+    <!-- Primary Meta Tags -->
+    <title>$OG_TITLE</title>
+    <meta name="description" content="$OG_DESCRIPTION" />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="/blog" />
+    <meta property="og:title" content="$OG_TITLE" />
+    <meta property="og:description" content="$OG_DESCRIPTION" />
+
+    <meta property="og:image" content="images/favicon.ico" />
+    <link rel="preload" href="styles.css" as="style" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-container">
+        <a class="logo" href="./">
+          <img src="images/logo.webp" alt="Panda" />
+          <h2 class="alias">devgaspar</h2>
+        </a>
+        <nav class="menu">
+          <a href="/">Hola</a>
+          <a href="/blog">Blog</a>
+        </nav>
+        <nav class="icons">
+          <a
+            href="https://linkedin.com/in/dev-gaspar"
+            target="_blank"
+            rel="noopener"
+          >
+            <i class="fa-brands fa-linkedin fa-xl"></i>
+          </a>
+          <a
+            href="https://github.com/dev-gaspar"
+            target="_blank"
+            rel="noopener"
+          >
+            <i class="fa-brands fa-github fa-xl"></i>
+          </a>
+          <button class="theme-toggle"></button>
+        </nav>
+      </div>
+    </header>
+
+    <section class="post section post-with-menu">
+      <aside id="post-blog" class="post-info text-center"></aside>
+      <article class="post-content">
+        <hr />
+        <aside id="post-menu" class="post-menu">
+          <h2 id="temas">Temas</h2>
+        </aside>
+      </article>
+    </section>
+
+    <footer>
+      <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+      </div>
+      <ul class="social_icon">
+        <li>
+          <a href="https://github.com/dev-gaspar"
+            ><i class="fa-brands fa-github fa-xl"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://instagram.com/dev.gaspar"
+            ><i class="fa-brands fa-instagram fa-xl"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://linkedin.com/in/dev-gaspar"
+            ><i class="fa-brands fa-linkedin fa-xl"></i
+          ></a>
+        </li>
+      </ul>
+
+      <p>&copy2023 devgaspar | Todos los derechos reservados</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+    <script src="scripts.js"></script>
+  </body>
+</html>

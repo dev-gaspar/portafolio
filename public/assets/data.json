@@ -1,0 +1,29 @@
+{
+  "posts": [
+    {
+      "title": "Mejora el SEO de tu portafolio: Estrategias efectivas para destacar como desarrollador de software.",
+      "name": "Mejora el SEO",
+      "slug": "mejora-el-seo",
+      "category": "seo",
+      "publish": true,
+      "date": "2023-05-18"
+    }
+  ],
+
+  "projects": [
+    {
+      "name": "MoreYlShop",
+      "excerpt": "Tienda virtual de prendas de vertir, con gestion de clientes, inventarios y pedidos. Desarrollado con el STACK MERN.",
+      "img": "images/icons/moreylshop.ico",
+      "link": "https://github.com/dev-gaspar/MoreYlShop",
+      "date": "2022"
+    },
+    {
+      "name": "ManagementSystem",
+      "excerpt": "Sistema desarrollado en spring boot para el control de egresos e ingresos de una empresa.",
+      "img": "images/icons/spring.webp",
+      "link": "https://github.com/dev-gaspar/ManagementSystem",
+      "date": "2021"
+    }
+  ]
+}

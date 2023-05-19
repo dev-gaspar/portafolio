@@ -1,0 +1,21 @@
+{
+  "name": "Jose Gaspar",
+  "short_name": "devgaspar",
+  "description": "Soy Jose Gaspar, un apasionado desarrollador de software siempre en busca de nuevos desafíos.",
+  "background_color": "#f9fafb",
+  "theme_color": "#222831",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "./index.html",
+  "scope": "./",
+  "lang": "es",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "./images/favicon.ico",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ]
+}
